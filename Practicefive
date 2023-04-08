@@ -1,0 +1,11 @@
+import java.util.*;
+public class Practicefive{
+  public static void main(String[]args){
+    String name="VijAyKUmar";
+     int ucount=4,lcount=6,scount=0;
+  
+      System.out.println("upper case letters are:"+ucount);
+    System.out.println("lower case letters are:"+ lcount);
+  }      
+      
+  }
