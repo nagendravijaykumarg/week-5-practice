@@ -1,0 +1,32 @@
+//Write a Java Program to capitalize first letter of each word
+import java.util.*;
+public class Practicesix {
+  public static void main(String[]args){
+    // create a string
+    String name="sank in sarrow";
+    // store each characters to a char array
+    char [] charArray=message.tocharArray();
+    boolean foundspace=true;
+    for(int i=0;i<charArray.length;i++){
+      //if the array element in a letter
+      if(Character.isLetter(charArray[i])){
+        //check space is present befor the letter
+        if (foundSpace) {
+          //change the letter into uppercase
+          chaArray[i]=Character.toUppcase(charArray[i]);
+       foundSpace=false;
+        }
+        
+      }
+      else {
+        //if the new character is not character
+        foundSpace=true;
+      }
+    }
+    //convert the char array to the string
+      message =String.valueof(charArray);
+    System.out.println("message:"+message);
+    
+  }
+  
+}
