@@ -1,0 +1,46 @@
+import java.util.*;
+public class VowelFrequencycounter{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the string: ");
+      String str1=sc.nextLine();
+      String word=str1.toLowerCase();
+      String str[]=word.split(" ");
+      for(int j=0;j<str.length;j++){
+      int acount=0;
+      int ecount=0;
+      int icount=0;
+      int ocount=0;
+      int ucount=0;
+      for(int i=0;i<str[j].length();i++){
+      char c=str[j].charAt(i);
+        if(c=='a'){
+          acount++;
+        }
+        if(c=='e'){
+          ecount++;
+        }
+        if(c=='i'){
+          icount++;
+        }
+        if(c=='o'){
+          ocount++;
+        }
+        if(c=='u'){
+          ucount++;
+        }
+      }
+      System.out.println(str[j]);
+    System.out.println("a vowel count "+acount);
+    System.out.println("e vowel count "+ecount);
+    System.out.println("i vowel count "+icount);
+    System.out.println("o vowel count "+ocount);
+    System.out.println("u vowel count "+ucount);
+      }
+    
+    }
+
+ 
+
+    
+  }
