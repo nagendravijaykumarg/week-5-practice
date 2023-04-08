@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Immutable
+{
+    public static void main(String args[]) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the string 1: ");
+        String str=s.nextLine();
+        System.out.println("Enter the string 2: ");
+        String str1=s.nextLine();
+        System.out.println(str==str1);
+        str=str+"hello";
+        System.out.println(str==str1);
+    }
+}
