@@ -1,0 +1,21 @@
+import java.util.*;
+public class Example{
+  public static void main(String[]args){
+    String Str= "hello my name is vijay  hi hello ";
+    // character whose frequency must be determined
+    char ch='l';
+    //store the frequency in freq
+    int freq=0;
+      // iterate through the string
+      for (int i=0;i< Str.length();i++){
+      // if the specified character
+      // appers in the string
+      if (ch==Str.charAt(i)){
+        //increase freq by1
+     ++freq;
+      }
+      }
+    // print the total occurance of 'ch'
+    System.out.println("Frequency of "+ch+"="+freq);
+  }
+}
