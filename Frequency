@@ -1,0 +1,29 @@
+//WAP to find frequency of each character in a given string.
+import java.util.Scanner;
+public class Frequency{
+  public static void main(String[]args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("enter the string");
+    String str=s.nextLine();
+    char arr[]=str.toCharArry();
+    int count=1;
+    for(int i=0;i<arr.length;i++){
+      for (int j=i+1;j<a.length;j++){
+        if (arr(i)==arr[j])
+        {
+          count++;
+      if    (arr[j]='');
+          
+        }
+      }
+    if(arr[i]!=''){
+    
+      System.out.println(arr[i]+":"+count);
+      count=1;
+    }
+    
+    }
+    }
+    }
+    
+  
